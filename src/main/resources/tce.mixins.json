@@ -3,7 +3,7 @@
 	"package": "net.redstonerazor.tce.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"MakeWoodRequireToolMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
