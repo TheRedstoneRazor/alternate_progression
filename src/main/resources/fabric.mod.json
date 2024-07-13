@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "tce",
+	"version": "${version}",
+	"name": "Test Mod",
+	"description": "WOO first mod lesgo why does idea have a spellchecker",
+	"authors": [
+		"TheRedstoneRazor",
+		"Caulifunky",
+		"Xenten9"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tce/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.redstonerazor.tce.TCE"
+		],
+		"client": [
+			"net.redstonerazor.tce.TCEClient"
+		],
+		"fabric-datagen": [
+			"net.redstonerazor.tce.TCEDataGenerator"
+		]
+	},
+	"mixins": [
+		"tce.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
