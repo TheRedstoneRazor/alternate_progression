@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:flint"
+    },
+    "T": {
+      "tag": "tce:tool_binding"
+    }
+  },
+  "pattern": [
+    "XX",
+    " T",
+    " #"
+  ],
+  "result": {
+    "item": "tce:flint_hoe"
+  },
+  "show_notification": true
+}

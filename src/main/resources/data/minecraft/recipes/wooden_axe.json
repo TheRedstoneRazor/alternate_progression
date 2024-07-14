@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "cookingtime": 600,
+  "experience": 0,
+  "ingredient": {
+    "item": "minecraft:knowledge_book"
+  },
+  "result": "minecraft:knowledge_book"
+}
