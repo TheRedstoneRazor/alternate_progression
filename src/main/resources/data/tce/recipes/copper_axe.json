@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "tce:tool_rod"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    },
+    "T": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "XX",
+    "XT",
+    " #"
+  ],
+  "result": {
+    "item": "tce:copper_axe"
+  },
+  "show_notification": true
+}

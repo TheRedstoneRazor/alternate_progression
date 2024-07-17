@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "tag": "tce:campfire_kindling"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ST",
+    "LL"
+  ],
+  "result": {
+    "item": "minecraft:campfire"
+  },
+  "show_notification": true
+}

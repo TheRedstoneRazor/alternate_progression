@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:bone"
+    },
+    "T": {
+      "tag": "tce:tool_binding"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " T ",
+    " # "
+  ],
+  "result": {
+    "item": "tce:bone_pickaxe"
+  },
+  "show_notification": true
+}

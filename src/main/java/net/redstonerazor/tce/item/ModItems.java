@@ -3,16 +3,25 @@ package net.redstonerazor.tce.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.impl.itemgroup.FabricItemGroup;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.redstonerazor.tce.TCE;
+import net.redstonerazor.tce.item.custom.SifterItem;
 
 public class ModItems {
 
     public static final Item TWINE = registerItem("twine", new Item(new FabricItemSettings()));
+    public static final Item SULFUR = registerItem("sulfur", new Item(new FabricItemSettings()));
+    public static final Item HIDE = registerItem("hide", new Item(new FabricItemSettings()));
+    public static final Item LEATHER_PELT = registerItem("leather_pelt", new Item(new FabricItemSettings()));
+    public static final Item TOOL_ROD = registerItem("tool_rod", new Item(new FabricItemSettings()));
+    public static final Item BELLOWS = registerItem("bellows", new Item(new FabricItemSettings()));
+    public static final Item GROUT = registerItem("grout", new Item(new FabricItemSettings()));
+    public static final Item STONE_BRICK = registerItem("stone_brick", new Item(new FabricItemSettings()));
+    public static final Item ENDER_CATALYST = registerItem("ender_catalyst", new Item(new FabricItemSettings()));
+    public static final Item ELDER_PRISMARINE = registerItem("elder_prismarine", new Item(new FabricItemSettings()));
 
     public static final Item FLINT_PICKAXE = registerItem("flint_pickaxe",
             new PickaxeItem(ModToolMaterial.FLINT, 1, -2.8f, new FabricItemSettings()));
@@ -44,6 +53,9 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.COPPER, 1.5f, -3.0f, new FabricItemSettings()));
     public static final Item COPPER_HOE = registerItem("copper_hoe",
             new HoeItem(ModToolMaterial.COPPER, -1, -2.0f, new FabricItemSettings()));
+
+    public static final Item SIFTER = registerItem("sifter",
+            new SifterItem(new FabricItemSettings().maxDamage(128)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(TWINE);

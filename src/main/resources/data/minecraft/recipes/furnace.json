@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "tce:furnace_crafting_materials"
+    },
+    "B": {
+      "item": "minecraft:copper_block"
+    },
+    "X": {
+      "item": "tce:bellows"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "#B#"
+  ],
+  "result": {
+    "item": "minecraft:furnace"
+  },
+  "show_notification": true
+}

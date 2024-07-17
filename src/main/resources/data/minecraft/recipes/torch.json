@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "tag": "c:coal"
+    },
+    "#": {
+      "tag": "tce:tool_binding"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "R"
+  ],
+  "result": {
+    "item": "minecraft:torch",
+    "count": 4
+  }
+}

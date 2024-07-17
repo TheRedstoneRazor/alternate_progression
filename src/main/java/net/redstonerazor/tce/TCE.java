@@ -2,8 +2,10 @@ package net.redstonerazor.tce;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.redstonerazor.tce.block.ModBlocks;
 import net.redstonerazor.tce.item.ModItemGroups;
 import net.redstonerazor.tce.item.ModItems;
+import net.redstonerazor.tce.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,5 +25,8 @@ public class TCE implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+		ModLootTableModifiers.modifyLootTables();
 	}
 }

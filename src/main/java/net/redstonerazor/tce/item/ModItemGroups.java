@@ -8,13 +8,13 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.redstonerazor.tce.TCE;
+import net.redstonerazor.tce.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup TCE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(TCE.MOD_ID,"twine"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tce"))
                     .icon(() -> new ItemStack(ModItems.TWINE)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.TWINE);
                         entries.add(ModItems.FLINT_AXE);
                         entries.add(ModItems.FLINT_SHOVEL);
                         entries.add(ModItems.FLINT_SWORD);
@@ -30,6 +30,20 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_SWORD);
                         entries.add(ModItems.COPPER_PICKAXE);
                         entries.add(ModItems.COPPER_HOE);
+                        entries.add(ModItems.SIFTER);
+
+                        entries.add(ModItems.BELLOWS);
+                        entries.add(ModItems.TOOL_ROD);
+                        entries.add(ModItems.TWINE);
+                        entries.add(ModItems.HIDE);
+                        entries.add(ModItems.LEATHER_PELT);
+                        entries.add(ModItems.GROUT);
+                        entries.add(ModItems.STONE_BRICK);
+                        entries.add(ModItems.SULFUR);
+                        entries.add(ModItems.ELDER_PRISMARINE);
+                        entries.add(ModItems.ENDER_CATALYST);
+
+                        entries.add(ModBlocks.COBBLED_BLACKSTONE);
                     }).build());
 
     public static void registerItemGroups() {

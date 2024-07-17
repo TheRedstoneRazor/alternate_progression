@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "misc",
+  "ingredients": [
+    {
+      "tag": "tce:tool_binding"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "tag": "tce:crafting_table_crafting_materials"
+    },
+    {
+      "tag": "minecraft:logs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crafting_table"
+  }
+}
