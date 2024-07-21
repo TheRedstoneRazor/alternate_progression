@@ -6,10 +6,14 @@
       "tag": "tce:packed_mud_materials"
     },
     {
+      "tag": "tce:packed_mud_materials"
+    },
+    {
       "item": "minecraft:wheat"
     }
   ],
   "result": {
-    "item": "minecraft:packed_mud"
+    "item": "minecraft:packed_mud",
+    "count": 2
   }
 }

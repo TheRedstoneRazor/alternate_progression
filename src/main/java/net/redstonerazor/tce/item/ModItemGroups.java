@@ -12,9 +12,9 @@ import net.redstonerazor.tce.block.ModBlocks;
 
 public class ModItemGroups {
     public static final ItemGroup TCE_GROUP = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(TCE.MOD_ID,"twine"),
+            new Identifier(TCE.MOD_ID,"alternate_progression"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.tce"))
-                    .icon(() -> new ItemStack(ModItems.TWINE)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.FLINT_SWORD)).entries((displayContext, entries) -> {
                         entries.add(ModItems.FLINT_AXE);
                         entries.add(ModItems.FLINT_SHOVEL);
                         entries.add(ModItems.FLINT_SWORD);
@@ -43,6 +43,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ELDER_PRISMARINE);
                         entries.add(ModItems.ENDER_CATALYST);
 
+                        entries.add(ModBlocks.OVEN);
                         entries.add(ModBlocks.COBBLED_BLACKSTONE);
                     }).build());
 

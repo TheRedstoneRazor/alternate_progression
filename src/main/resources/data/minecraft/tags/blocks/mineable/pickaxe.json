@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-      "tce:cobbled_blackstone"
+      "tce:cobbled_blackstone",
+      "tce:oven"
     ]
 }

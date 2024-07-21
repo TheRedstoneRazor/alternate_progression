@@ -2,20 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "tag": "tce:furnace_crafting_materials"
-    },
     "X": {
-      "item": "tce:bellows"
+      "item": "minecraft:mud_bricks"
     }
   },
   "pattern": [
-    "###",
-    "#X#",
-    "###"
+    "XXX",
+    "X X",
+    "XXX"
   ],
   "result": {
-    "item": "minecraft:furnace"
+    "item": "tce:oven"
   },
   "show_notification": true
 }
