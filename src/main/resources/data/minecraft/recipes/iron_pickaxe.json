@@ -6,10 +6,10 @@
       "item": "tce:tool_rod"
     },
     "X": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:iron_ingot"
     },
     "T": {
-      "tag": "tce:tool_binding"
+      "item": "minecraft:leather"
     }
   },
   "pattern": [
@@ -18,7 +18,7 @@
     " # "
   ],
   "result": {
-    "item": "tce:copper_pickaxe"
+    "item": "minecraft:iron_pickaxe"
   },
   "show_notification": true
 }

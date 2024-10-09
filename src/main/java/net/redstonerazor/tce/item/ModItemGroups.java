@@ -32,18 +32,20 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_HOE);
                         entries.add(ModItems.SIFTER);
 
-                        entries.add(ModItems.BELLOWS);
                         entries.add(ModItems.TOOL_ROD);
                         entries.add(ModItems.TWINE);
                         entries.add(ModItems.HIDE);
                         entries.add(ModItems.LEATHER_PELT);
                         entries.add(ModItems.GROUT);
                         entries.add(ModItems.STONE_BRICK);
+                        entries.add(ModItems.COAL_COKE);
+                        entries.add(ModItems.IRON_BLOOM);
+                        entries.add(ModItems.IRON_FLUX);
                         entries.add(ModItems.SULFUR);
                         entries.add(ModItems.ELDER_PRISMARINE);
                         entries.add(ModItems.ENDER_CATALYST);
 
-                        entries.add(ModBlocks.OVEN);
+                        entries.add(ModBlocks.COAL_COKE_BLOCK);
                         entries.add(ModBlocks.COBBLED_BLACKSTONE);
                     }).build());
 

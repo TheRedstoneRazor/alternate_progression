@@ -10,9 +10,9 @@
     }
   },
   "pattern": [
-    "XXX",
-    " # ",
-    " # "
+    " XX",
+    " #X",
+    "#  "
   ],
   "result": {
     "item": "minecraft:trident"

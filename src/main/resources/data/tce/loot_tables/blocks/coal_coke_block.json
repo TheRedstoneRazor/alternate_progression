@@ -11,17 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:copy_name",
-              "source": "block_entity"
-            }
-          ],
-          "name": "tce:oven"
+          "name": "tce:coal_coke_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "tce:blocks/oven"
+  "random_sequence": "tce:blocks/coal_coke_block"
 }

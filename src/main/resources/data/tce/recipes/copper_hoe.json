@@ -9,7 +9,7 @@
       "item": "minecraft:copper_ingot"
     },
     "T": {
-      "item": "minecraft:leather"
+      "tag": "tce:tool_binding"
     }
   },
   "pattern": [

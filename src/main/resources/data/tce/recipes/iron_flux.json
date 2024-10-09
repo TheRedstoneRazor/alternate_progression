@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "tce:iron_flux_materials"
+    },
+    {
+      "tag": "tce:iron_flux_materials"
+    },
+    {
+      "tag": "tce:iron_flux_materials"
+    },
+    {
+      "item": "tce:coal_coke"
+    },
+    {
+      "item": "minecraft:andesite"
+    }
+  ],
+  "result": {
+    "item": "tce:iron_flux"
+  }
+}

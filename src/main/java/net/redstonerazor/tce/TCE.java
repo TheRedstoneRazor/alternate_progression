@@ -2,6 +2,7 @@ package net.redstonerazor.tce;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.redstonerazor.tce.block.ModBlocks;
 import net.redstonerazor.tce.item.ModItemGroups;
 import net.redstonerazor.tce.item.ModItems;
@@ -28,5 +29,8 @@ public class TCE implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModLootTableModifiers.modifyLootTables();
+
+		FuelRegistry.INSTANCE.add(ModItems.COAL_COKE, 3200);
+		FuelRegistry.INSTANCE.add(ModBlocks.COAL_COKE_BLOCK, 28800);
 	}
 }

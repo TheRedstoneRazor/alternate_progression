@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+	  {
+      "item": "minecraft:charcoal"
+    }
+  ],
+  "result": {
+    "item": "tce:iron_bloom"
+  }
+}

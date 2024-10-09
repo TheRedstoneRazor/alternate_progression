@@ -4,14 +4,11 @@
   "key": {
     "#": {
       "tag": "tce:furnace_crafting_materials"
-    },
-    "X": {
-      "item": "tce:bellows"
     }
   },
   "pattern": [
     "###",
-    "#X#",
+    "# #",
     "###"
   ],
   "result": {

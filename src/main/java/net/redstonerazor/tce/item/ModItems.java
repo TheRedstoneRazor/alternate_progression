@@ -17,11 +17,13 @@ public class ModItems {
     public static final Item HIDE = registerItem("hide", new Item(new FabricItemSettings()));
     public static final Item LEATHER_PELT = registerItem("leather_pelt", new Item(new FabricItemSettings()));
     public static final Item TOOL_ROD = registerItem("tool_rod", new Item(new FabricItemSettings()));
-    public static final Item BELLOWS = registerItem("bellows", new Item(new FabricItemSettings()));
     public static final Item GROUT = registerItem("grout", new Item(new FabricItemSettings()));
     public static final Item STONE_BRICK = registerItem("stone_brick", new Item(new FabricItemSettings()));
     public static final Item ENDER_CATALYST = registerItem("ender_catalyst", new Item(new FabricItemSettings()));
     public static final Item ELDER_PRISMARINE = registerItem("elder_prismarine", new Item(new FabricItemSettings()));
+    public static final Item IRON_BLOOM = registerItem("iron_bloom", new Item(new FabricItemSettings()));
+    public static final Item IRON_FLUX = registerItem("iron_flux", new Item(new FabricItemSettings()));
+    public static final Item COAL_COKE = registerItem("coal_coke", new Item(new FabricItemSettings()));
 
     public static final Item FLINT_PICKAXE = registerItem("flint_pickaxe",
             new PickaxeItem(ModToolMaterial.FLINT, 1, -2.8f, new FabricItemSettings()));

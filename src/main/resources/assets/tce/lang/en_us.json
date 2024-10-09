@@ -25,7 +25,10 @@
   "item.tce.hide": "Animal Hide",
   "item.tce.grout": "Grout",
   "item.tce.stone_brick": "Stone Brick",
+  "item.tce.iron_bloom": "Iron Bloom Mixture",
+  "item.tce.iron_flux": "Iron Flux Mixture",
+  "item.tce.coal_coke": "Coal Coke",
   "block.tce.cobbled_blackstone": "Cobbled Blackstone",
-  "block.tce.oven": "Oven",
+  "block.tce.coal_coke_block": "Block of Coal Coke",
   "itemgroup.tce": "Alternate Progression"
 }

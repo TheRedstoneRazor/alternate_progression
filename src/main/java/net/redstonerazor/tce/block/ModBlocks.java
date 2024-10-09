@@ -18,8 +18,8 @@ public class ModBlocks {
 
     public static final Block COBBLED_BLACKSTONE = registerBlock("cobbled_blackstone",
             new Block(FabricBlockSettings.copyOf(Blocks.BLACKSTONE).strength(2.0f, 6.0f)));
-    public static final Block OVEN = registerBlock("oven",
-            new SmokerBlock(FabricBlockSettings.copyOf(Blocks.MUD_BRICKS).strength(2.5f, 3.0f).luminance(createLightLevelFromLitBlockState(13))));
+    public static final Block COAL_COKE_BLOCK = registerBlock("coal_coke_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.COAL_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -3,22 +3,19 @@
   "category": "equipment",
   "key": {
     "#": {
-      "item": "tce:tool_rod"
+      "item": "minecraft:stick"
     },
     "X": {
-      "item": "minecraft:copper_ingot"
-    },
-    "T": {
-      "tag": "tce:tool_binding"
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "XXX",
-    " T ",
-    " # "
+    "X",
+    "X",
+    "#"
   ],
   "result": {
-    "item": "tce:copper_pickaxe"
+    "item": "minecraft:iron_sword"
   },
   "show_notification": true
 }
